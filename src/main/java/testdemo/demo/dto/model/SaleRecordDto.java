@@ -1,10 +1,10 @@
-package com.worldline.dts.sale.model;
-
-import java.math.BigInteger;
-import java.util.Date;
+package testdemo.demo.dto.model;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import lombok.Data;
+
+import java.math.BigInteger;
+import java.util.Date;
 
 @JacksonXmlRootElement(localName = "SaleRecordDto")
 @Data
